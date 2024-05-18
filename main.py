@@ -10,6 +10,7 @@ st.subheader(f"{option} for the next {days} days in {place}")
 
 if place:
 
+
     try:
         filtered_data = get_data(place, days)
 
